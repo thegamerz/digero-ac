@@ -1,4 +1,5 @@
 #summary GoArrow displays an arrow on your screen that points towards coordinates that you specify.
+#labels Featured
 
 !GoArrow displays an arrow on your screen that points towards coordinates that you specify. This is very handy if you have to run to coordinates with obstacles in the way (like mountains), or if you're just directionally-challenged, like me =D
 
