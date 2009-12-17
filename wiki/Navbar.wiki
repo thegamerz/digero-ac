@@ -7,7 +7,3 @@
  * [SSSort]
  * [SpellbarSaver Spellbar Saver]
  * [TargetInfo Target Info]
-
-=== Utilities ===
- * [ACIconBrowser AC Icon Browser]
- * [DecalViewCodeGen Decal View Code Generator]
