@@ -25,7 +25,7 @@ Quest Timer makes all of its requests with `POST`. Every request contains the fo
 || `random` || A random number to prevent caching (ignore this) ||
 
 
-== Response Protocol (from the script) ==
+== Response Protocol (from the server) ==
 _All responses must be in XML format!_
 
 Quest Timer verifies that the response was what it was expecting by checking the root tag's name. The root element is the outermost element. There can be only one root element per XML document. Tags can either be written `<tag></tag>` or `<tag/>`. The second is just shorthand for the first that can be used when the element contains no child nodes. Remember that XML is _case-sensitive_.
