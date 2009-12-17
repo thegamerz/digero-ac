@@ -1,0 +1,9 @@
+#summary Target Info tells you what monsters have had debuffs cast on them, regardless of who cast them.
+You just have to be around when the vuln is cast. This is very useful in a fellow, where you have a few mages casting vulns at the same time. Makes avoiding those annoying recasts easier!!
+
+It displays the vulns in an onscreen HUD for the creature or player you currently have selected. You can cycle through vulned or nonvulned monsters (and/or players) using hotkeys you define with DHS.
+
+The plugin can also recommend which vulns to cast on your target, using the data from Crossroad of Dereth's creature database.
+
+== Download ==
+[http://digero-ac.googlecode.com/files/Target_Info_v3.1.1%20Alpha.msi Target Info v3.1.1 Alpha]
