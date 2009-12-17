@@ -1,6 +1,4 @@
 #labels Featured
-== Description ==
-
 Quest Timer keeps track of quests you've completed.  It will automatically start quest timers based on triggers you can download or define yourself.
 
 You can store your quests online and access them from any computer you play AC 
@@ -8,10 +6,44 @@ on, or see your timers out-of-game. Quest Timer will also download new quests
 as they are submitted to my site, to keep you up to date with the latest quest 
 timers!
 
+== Download ==
+[http://digero-ac.googlecode.com/files/Quest_Timer_v2.4.2%20Alpha.msi Quest Timer v2.4.2 Alpha]
+
+== Tab Descriptions ==
+*Quests*
+ This tab is pretty straightforward. Click on any of the quest names to sort by name, or the time left to sort by that. Click Edit to bring up the Add/Edit tab with that quest's info for editing. Hold down CTRL and click the red X to delete the quest.
+
+*Notes*
+ On this tab, you can view/add notes for quests. Click Copy to copy the note to the clipboard, /say to say the note outloud, and /f to say the note to your fellowship. You'll need to hold CTRL when clicking the X to delete the note.
+
+ You can also get to this tab by typing `/qtimer notes [quest name]` (quest name is optional). If you don't specify a quest name, it'll just show notes for the currently selected quest.
+
+*Add/Edit Quest*
+ Use this tab to add a new quest or edit an existing one. If you enter the name of an existing quest and haven't started adding any triggers or length info, Quest Timer will automatically fill in the existing information so you can edit it. When typing the dates and times, simply enter them in your local format. To verify that you typed the correct format, Quest Timer will convert the date to the Month Day, Year format in the edit box.  
+
+*Other Characters*
+  On this tab you can view the quest timers for the other characters in your quest file. Characters will only show up in this list if they have completed a quest.  
+
+*Internet > Available Quests*
+  If you specify on the options tab to download new quests, this will show the quests that have been downloaded. Any quests that are new since you last checked for new quests will be green. Click the blue + to add a quest to your list, or View to review/edit the quest information before adding it. Click any of the first three columns to sort by that column (i.e., click on a quest's name to sort by name, etc)
+
+  If you want to reset the list and download all of the available quests again, type `/qtimer checknew reset`
+
+*Internet > Submit Quests*
+  Here you can select quests from your quest file to submit to the server. Quests in your file are checked against the list of downloaded quests. If they don't exist, they will appear green; if they do exist, but with different trigger/duration data, they will appear yellow; and if the exist with the same info, they will appear red. See the Notes section for more info.
+
+*Internet > Settings*
+  You can turn on/off the various internet functions of Quest Timer. If you have a custom site to handle uploading or downloading, enter the URL here. (See the Notes section for info on how to upload to multiple sites).
+
+  Since all characters share one quest file, the only good way for the server to keep track of which file to save/get when uploading/downloading is a username and password. *Do not use a sensitive password!* The password is sent and stored unencrypted.  
+
+*Settings*
+  You can turn on/off the various functions of Quest Timer.  
+
 == Notes ==
  * Since all characters share the same quest file, when you delete a quest with one character, it will be deleted for all other characters, and any timer info and notes will be lost
 
- * You can use the wildcards `* ? #` to match arbitrary letters/numbers, and the pipe | as an "OR" for matching multiple different names.
+ * You can use the wildcards `* ? #` to match arbitrary letters/numbers, and the pipe `|` as an "OR" for matching multiple different names.
    * `*` matches zero or more of any letter or number
    * `?` matches exactly one letter or number
    * `#` matches any single digit (0-9)
