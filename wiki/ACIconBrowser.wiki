@@ -1,0 +1,6 @@
+#summary AC Icon Browser lets you quickly browse and export the icons available in AC's client_portal.dat file.
+
+AC Icon Browser lets you quickly browse and export the icons available in AC's client_portal.dat file, for use in plugins. I got annoyed with the .dat file browsers available and decided to make one that let you view many icons quickly. I created a new UI on top of [http://ac.ciper.com/acv.html Ascus's AC View] .dat file loader. A great deal of the credit for this app goes to Ascus for writing the .dat file loading code.
+
+== Download ==
+[http://digero-ac.googlecode.com/files/ACIconBrowser.exe AC Icon Browser v1.0]
