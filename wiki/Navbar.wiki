@@ -1,4 +1,4 @@
-*Plugins*
+=== Plugins ===
  * [GoArrow]
  * [LogWiz]
  * [MediaControl Media Control]
@@ -7,6 +7,6 @@
  * [SpellbarSaver Spellbar Saver]
  * [TargetInfo Target Info]
 
-*Utilities*
+=== Utilities ===
  * [ACIconBrowser AC Icon Browser]
  * [DecalViewCodeGen Decal View Code Generator]
