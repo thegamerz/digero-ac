@@ -1,7 +1,5 @@
-#summary Quest Timer
 #labels Featured
-
-= Description =
+== Description ==
 
 Quest Timer keeps track of quests you've completed.  It will automatically start quest timers based on triggers you can download or define yourself.
 
@@ -10,7 +8,7 @@ on, or see your timers out-of-game. Quest Timer will also download new quests
 as they are submitted to my site, to keep you up to date with the latest quest 
 timers!
 
-= Notes =
+== Notes ==
  * Since all characters share the same quest file, when you delete a quest with one character, it will be deleted for all other characters, and any timer info and notes will be lost
 
  * You can use the wildcards `* ? #` to match arbitrary letters/numbers, and the pipe | as an "OR" for matching multiple different names.
