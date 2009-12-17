@@ -3,6 +3,7 @@
  * [LogWiz]
  * [MediaControl Media Control]
  * [QuestTimer Quest Timer]
+   * [QuestTimerDevInfo Developer Info]
  * [SSSort]
  * [SpellbarSaver Spellbar Saver]
  * [TargetInfo Target Info]
