@@ -1,0 +1,34 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DecalViewCodeGenerator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="viewXmlPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="embeddedXmlPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Namespace.MainView.xml</Value>
+    </Setting>
+    <Setting Name="className" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MyPlugin.PluginCore</Value>
+    </Setting>
+    <Setting Name="windowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="windowBounds" Type="System.Drawing.Rectangle" Scope="User">
+      <Value Profile="(Default)">-1, -1, -1, -1</Value>
+    </Setting>
+    <Setting Name="exportConfigs" Type="System.Xml.XmlDocument" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;exportConfigs /&gt;</Value>
+    </Setting>
+    <Setting Name="compactCode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exportLanguage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="hideDefaultNames" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<Quests FileVer="4">
+	<Quest QuestName="Aerlinthe" Days="14" Hours="0" Minutes="0" Text="" Item="Ashen Key" Chest="" Droppable="False"/>
+	<Quest QuestName="Asheron's Raiment 60-90" Days="21" Hours="0" Minutes="0" Text="" Item="Brood Matron Crest" Chest="" Droppable="False"/>
+	<Quest QuestName="Asheron's Raiment 80+" Days="21" Hours="0" Minutes="0" Text="" Item="Brood Matron Carapace" Chest="" Droppable="False"/>
+	<Quest QuestName="Attribute Redistribution" Days="14" Hours="0" Minutes="0" Text="" Item="Gem of Raising*|Gem of Lowering*" Chest="" Droppable="False"/>
+	<Quest QuestName="Blackmire I" Days="28" Hours="0" Minutes="0" Text="You find that the garb placed atop the sarcophagus is intact and take it for yourself." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Blackmire II (Liazk Itzi's Temple)" Days="28" Hours="0" Minutes="0" Text="You find that the bracers placed atop the sarcophagus is intact and take it for yourself." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Blackmire III (Izji Qo's Temple)" Days="28" Hours="0" Minutes="0" Text="Sarcophagus of High Matriarch, Hizk Ri gives you Ancient Armored Gauntlets.|Sarcophagus of High Matriarch, Hizk Ri gives you Ancient Armored Long Boots." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Blackmire IV (Kivik Lir's Temple)" Days="30" Hours="0" Minutes="0" Text="Sarcophagus of High Matriarch, Kivik Lir gives you Ancient Armored Leggings." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Blackmire V (Izji Qo's Temple)" Days="30" Hours="0" Minutes="0" Text="Scroll of The Endless Well gives you Scroll of Superior Endless Well.|Scroll of The Soothing Wind gives you Scroll of Superior Soothing Wind.|Scroll of The Golden Wind gives you Scroll of Superior Golden Wind." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Bobo" Days="3" Hours="0" Minutes="0" Text="Oolutanga, the Tusker King gives you Fabled Tusker Paw." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Broodu" Days="21" Hours="0" Minutes="0" Text="Guard Hamdyn tells you, &quot;This is for your efforts against the Burun Kukuur, King Broodu.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Browerk" Days="21" Hours="0" Minutes="0" Text="Guard Haigh tells you, &quot;This is for your efforts against the Burun Kukuur, King Browerk.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Combined Hides" Days="21" Hours="0" Minutes="0" Text="Guard Devon tells you, &quot;You have fought through a great many foes to prove your heroism.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Keerik" Days="21" Hours="0" Minutes="0" Text="Guard Sorchia tells you, &quot;This is for your efforts against the Burun Kukuur, King Keerik.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Kiree" Days="21" Hours="0" Minutes="0" Text="Guard Fassel tells you, &quot;This is for your efforts against the Burun Kukuur, King Kiree.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Reeshan" Days="21" Hours="0" Minutes="0" Text="Guard Ellyon tells you, &quot;This is for your efforts against the Burun Kukuur, King Reeshan.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Burun Kings - Rehir" Days="21" Hours="0" Minutes="0" Text="Guard Lo Pan tells you, &quot;This is for your efforts against the Burun Kukuur, King Rehir.*" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Caul Recall Rings" Days="7" Hours="0" Minutes="0" Text="" Item="Dark Amber Ring|Dark Ruby Ring|Dark Sapphire Ring" Chest="Corpse of The Gatekeeper|Corpse of The Sage|Corpse of The Auditor" Droppable="False"/>
+	<Quest QuestName="Gaerlan - Iasparailaun Turn-In" Days="1" Hours="0" Minutes="0" Text="Agent of the Arcanum gives you Gaerlan Token." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Gaerlan" Days="7" Hours="0" Minutes="0" Text="Gaerlan's Phylacteric Prison gives you Iasparailaun." Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Harbinger" Days="90" Hours="0" Minutes="0" Text="?It cannot be. I am the well of world blood given consciousness, your blades should not matter. I hear her singing. I hear the song that so long I have been without. No! I shall return, I now taste freedom, I shall yet rise again!?" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Olthoi Pincer - Eviscerator" Days="21" Hours="0" Minutes="0" Text="" Item="Eviscerator Pincer" Chest="" Droppable="False"/>
+	<Quest QuestName="Olthoi Pincer - Legionary" Days="21" Hours="0" Minutes="0" Text="" Item="Legionary Pincer" Chest="" Droppable="False"/>
+	<Quest QuestName="Olthoi Pincer - Mutilator" Days="21" Hours="0" Minutes="0" Text="" Item="Mutilator Pincer" Chest="" Droppable="False"/>
+	<Quest QuestName="Olthoi Pincer - Warrior" Days="21" Hours="0" Minutes="0" Text="" Item="Warrior Pincer" Chest="" Droppable="False"/>
+	<Quest QuestName="Queen Quest Bell Drop" Days="21" Hours="0" Minutes="0" Text="The crashing of the great pyreal bell reverberates through the ground. The menhir stones crack and break!" Item="" Chest="" Droppable="False"/>
+	<Quest QuestName="Skill Change" Days="14" Hours="0" Minutes="0" Text="" Item="*Gem of Forgetfulness|*Gem of Enlightenment" Chest="" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Armored" Days="21" Hours="0" Minutes="0" Text="" Item="Armored Tusker Tusk" Chest="" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Assailer" Days="21" Hours="0" Minutes="0" Text="" Item="Assailer Tusk" Chest="Corpse of Assailer" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Devastator" Days="21" Hours="0" Minutes="0" Text="" Item="Devastator Tusk" Chest="Corpse of Devastator" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Guard" Days="21" Hours="0" Minutes="0" Text="" Item="Tusker Guard Tusk" Chest="" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Plated" Days="21" Hours="0" Minutes="0" Text="" Item="Plated Tusker Tusk" Chest="Corpse of Plated Tusker" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Rampager" Days="21" Hours="0" Minutes="0" Text="" Item="Rampager Tusk" Chest="Corpse of Rampager" Droppable="False"/>
+	<Quest QuestName="Tusker Tusk - Silver" Days="21" Hours="0" Minutes="0" Text="" Item="Silver Tusker Tusk" Chest="" Droppable="False"/>
+	<Quest QuestName="Walking Boots" Days="30" Hours="0" Minutes="0" Text="Undead Mechanic gives you Walking Boots." Item="" Chest="" Droppable="False"/>
+</Quests>

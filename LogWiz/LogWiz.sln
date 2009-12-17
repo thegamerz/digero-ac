@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogWiz", "LogWiz\LogWiz.csproj", "{C21AE515-7580-46C4-8A56-63F1A9A0AE6B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{EB2B931A-EDFA-4273-8ECE-A15BF2BDDBCF}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LogWiz\\LogWiz.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = LogWiz\\
+		SccProjectUniqueName2 = Installer\\Installer.vdproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Installer\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C21AE515-7580-46C4-8A56-63F1A9A0AE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C21AE515-7580-46C4-8A56-63F1A9A0AE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C21AE515-7580-46C4-8A56-63F1A9A0AE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C21AE515-7580-46C4-8A56-63F1A9A0AE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2B931A-EDFA-4273-8ECE-A15BF2BDDBCF}.Debug|Any CPU.ActiveCfg = Debug
+		{EB2B931A-EDFA-4273-8ECE-A15BF2BDDBCF}.Release|Any CPU.ActiveCfg = Release
+		{EB2B931A-EDFA-4273-8ECE-A15BF2BDDBCF}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

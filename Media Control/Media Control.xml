@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<view icon="0" title="Media Control" width="248" height="100">
+		<control progid="DecalControls.FixedLayout" clipped="">
+			<control progid="DecalControls.PushButton" name="btnPlayPause" left="8" top="8" width="64" height="24" text="Play/Pause"/>
+			<control progid="DecalControls.PushButton" name="btnStop" left="80" top="8" width="48" height="24" text="Stop"/>
+			<control progid="DecalControls.PushButton" name="btnNext" left="192" top="8" width="48" height="24" text="Next"/>
+			<control progid="DecalControls.PushButton" name="btnPrev" left="136" top="8" width="48" height="24" text="Prev"/>
+			<control progid="DecalControls.StaticText" name="txtVol" left="16" top="40" width="56" height="16" fontface="Arial" fontsize="16" fontstyle=" bold" text="Volume"/>
+			<control progid="DecalControls.PushButton" name="btnVolUp" left="80" top="40" width="48" height="16" text="Up"/>
+			<control progid="DecalControls.PushButton" name="btnVolDn" left="136" top="40" width="48" height="16" text="Down"/>
+			<control progid="DecalControls.PushButton" name="btnMute" left="192" top="40" width="48" height="16" text="Mute"/>
+		</control>
+
+</view>

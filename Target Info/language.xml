@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="no"?>
+<!-- EDIT THIS FILE AT YOUR OWN RISK! -->
+<language>
+	<!--
+		Ratings correspond to the text in the data XML and what is displayed 
+		by the plugin.  If the vuln_database XML changes somehow and the ratings 
+		change, you can edit them here (the number of ratings may change as well)
+		
+		name is what is used ingame, and dbname is what is used in the database
+		Don't change dbname unless the database format changes 
+		
+		color is in hex &amp;HAARRGGBB (ARGB)
+		"&amp;H" is "&H" for VB to recognize it as a hex number
+		
+		The order of ratings is important! (best to worst, with the ?? one first)
+	-->
+	<rating name="??"   dbname=""               color="&amp;HFFFFFFFF"/>
+	<rating name="VL"   dbname="Very Low"       color="&amp;HFF33FF33"/>
+	<rating name="L"    dbname="Low"            color="&amp;HFF99FF00"/>
+	<rating name="BA"   dbname="Below Average"  color="&amp;HFFCCFF00"/>
+	<rating name="A"    dbname="Average"        color="&amp;HFFFFFF33"/>
+	<rating name="AA"   dbname="Above Average"  color="&amp;HFFFFAA00"/>
+	<rating name="H"    dbname="High"           color="&amp;HFFFF6600"/>
+	<rating name="VH"   dbname="Very High"      color="&amp;HFFFF4A4A"/>
+	
+	<!-- 
+		name is what is used ingame, and dbname is what is used in the database
+		Don't change dbname unless the database format changes 
+		
+		The order does matter and shouldn't be changed
+	-->
+	<vuln name="Unknown" dbname=""              icon="&amp;H60011F8"/>
+	<vuln name="Acid"   dbname="armor_acid"     icon="&amp;H60013B8"/>
+	<vuln name="Bludge" dbname="armor_bludgeon" icon="&amp;H60013B9"/>
+	<vuln name="Cold"   dbname="armor_cold"     icon="&amp;H6001384"/>
+	<vuln name="Fire"   dbname="armor_fire"     icon="&amp;H6001383"/>
+	<vuln name="Light"  dbname="armor_electricity" icon="&amp;H60013BA"/>
+	<vuln name="Pierce" dbname="armor_pierce"   icon="&amp;H60013BB"/>
+	<vuln name="Slash"  dbname="armor_slash"    icon="&amp;H60013BC"/>
+</language>

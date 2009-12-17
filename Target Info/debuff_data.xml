@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="no"?>
+<!-- EDIT THIS FILE AT YOUR OWN RISK! -->
+<debuff_data>
+	<!-- The order of debuffs in this file determines the order they will be displayed ingame -->
+	<effect id="56" name="Bludgeon Vuln or Imperil" icon="&amp;H60013B9" type="Life">
+		<debuff name="Imperil" icon="&amp;H6001385" spellwords="Cruath Quasith"/>
+		<debuff name="Bludge Vuln" icon="&amp;H60013B9" spellwords="Cruath Quareth"/>
+	</effect>
+	<effect id="50" name="Acid Vuln" icon="&amp;H60013B8" type="Life"/>
+	<effect id="52" name="Cold Vuln" icon="&amp;H6001384" type="Life"/>
+	<effect id="44" name="Fire Vuln" icon="&amp;H6001383" type="Life"/>
+	<effect id="54" name="Light Vuln" icon="&amp;H60013BA" type="Life"/>
+	<effect id="46" name="Piercing Vuln" icon="&amp;H60013BB" type="Life"/>
+	<effect id="48" name="Slashing Vuln" icon="&amp;H60013BC" type="Life"/>
+	<effect id="7" name="Weakness" icon="&amp;H600138C" type="Crit"/>
+	<effect id="11" name="Frailty" icon="&amp;H6001371" type="Crit"/>
+	<effect id="9" name="Clumsiness" icon="&amp;H600136C" type="Crit"/>
+	<effect id="13" name="Slowness" icon="&amp;H6001386" type="Crit"/>
+	<effect id="17" name="Bafflement" icon="&amp;H6001375" type="Crit"/>
+	<effect id="15" name="Feeblemind" icon="&amp;H6001388" type="Crit"/>
+	<effect id="38" name="Fester" icon="&amp;H6001377" type="Life"/>
+	<effect id="42" name="Exhaustion" icon="&amp;H600138B" type="Life"/>
+	<effect id="40" name="Mana Depletion" icon="&amp;H6001380" type="Life"/>
+	<effect id="23" name="Defense Inepts" icon="&amp;H60013AB" type="Crit">
+		<debuff name="Magic Yield" icon="&amp;H60013AA" spellwords="Equin Opaj"/>
+		<debuff name="Vulnerability" icon="&amp;H60013AB" spellwords="Equin Ozael"/>
+		<debuff name="Defenselessness" icon="&amp;H60016C6" spellwords="Equin Ofeth"/>
+	</effect>
+	<effect id="27" name="Magic Skills Inepts" icon="&amp;H60013C6" type="Crit">
+		<debuff name="Creature Magic Inept" icon="&amp;H60013C6" spellwords="Equin Ealoi"/>
+		<debuff name="Item Magic Inept" icon="&amp;H6001370" spellwords="Equin Eapaj"/>
+		<debuff name="Life Magic Inept" icon="&amp;H60013B1" spellwords="Equin Eavik"/>
+		<debuff name="War Magic Inept" icon="&amp;H6001370" spellwords="Equin Eati"/>
+		<debuff name="Mana Conversion Inept" icon="&amp;H6001380" spellwords="Equin Easith"/>
+		<debuff name="Arcane Benightedness" icon="&amp;H600137D" spellwords="Equin Eaja"/>
+		<debuff name="Alchemy Inept" icon="&amp;H6001C72" spellwords="Equin Eatak"/>
+	</effect>
+	<effect id="19" name="Weapon Skill Inepts" icon="&amp;H600138E" type="Crit">
+		<debuff name="Axe Inept" icon="&amp;H6001369" spellwords="Equin Lutak"/>
+		<debuff name="Bow Inept" icon="&amp;H600136A" spellwords="Equin Hatak"/>
+		<debuff name="Crossbow Inept" icon="&amp;H600136B" spellwords="Equin Hafeth"/>
+		<debuff name="Dagger Inept" icon="&amp;H600136D" spellwords="Equin Luzael"/>
+		<debuff name="Mace Inept" icon="&amp;H600137F" spellwords="Equin Lureth"/>
+		<debuff name="Spear Inept" icon="&amp;H6001389" spellwords="Equin Lufeth"/>
+		<debuff name="Staff Inept" icon="&amp;H600138A" spellwords="Equin Luguz"/>
+		<debuff name="Sword Inept" icon="&amp;H600138E" spellwords="Equin Luril"/>
+		<debuff name="Thrown Weapons Inept" icon="&amp;H600138F" spellwords="Equin Hati"/>
+		<debuff name="Unarmed Combat Inept" icon="&amp;H6001372" spellwords="Equin Luvik"/>
+	</effect>
+	<effect id="21" name="TS/Heal/Alleg Inepts" icon="&amp;H600137C" type="Crit">
+		<debuff name="Healing Inept" icon="&amp;H6001377" spellwords="Equin Guaguz"/>
+		<debuff name="Lockpick Inept" icon="&amp;H600137C" spellwords="Equin Guaril"/>
+		<debuff name="Cooking Inept" icon="&amp;H6001C73" spellwords="Equin Guafeth"/>
+		<debuff name="Fletching Inept" icon="&amp;H6001C74" spellwords="Equin Guareth"/>
+		<debuff name="Leadership Inept" icon="&amp;H600137B" spellwords="Equin Guatak"/>
+		<debuff name="Faithlessness" icon="&amp;H600137E" spellwords="Equin Guavik"/>
+	</effect>
+	<effect id="25" name="Run or Jump Inept" icon="&amp;H6001387" type="Crit">
+		<debuff name="Leaden Feet" icon="&amp;H6001387" spellwords="Equin Guati"/>
+		<debuff name="Jumping Inept" icon="&amp;H600137A" spellwords="Equin Guasith"/>
+	</effect>
+	<effect id="29" name="Useless Inepts" icon="&amp;H6001368" type="Crit">
+		<debuff name="Deception Inept" icon="&amp;H6001388" spellwords="Equin Gualoi"/>
+		<debuff name="Armor Tink Ignorance" icon="&amp;H60013C0" spellwords="Equin Oloi"/>
+		<debuff name="Item Tink Ignorance" icon="&amp;H6001368" spellwords="Equin Guaja"/>
+		<debuff name="Magic Item Tink Ignorance" icon="&amp;H60013C2" spellwords="Equin Eareth"/>
+		<debuff name="Weapon Tink Ignorance" icon="&amp;H60013C5" spellwords="Equin Luja"/>
+		<debuff name="Person Unfamiliarity" icon="&amp;H60013C3" spellwords="Equin Guazael"/>
+		<debuff name="Monster Unfamiliarity" icon="&amp;H60013C1" spellwords="Equin Guapaj"/>
+	</effect>
+</debuff_data>

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<view icon="13462" title="Quest Timer" width="400" height="273">
+		<control progid="DecalControls.Notebook" name="nbkMain">
+		<page label="Quests">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.StaticText" name="" left="8" top="2" width="140" height="15" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Click to sort by Name/Time"/>
+				<control progid="DecalControls.List" name="QuestsList" left="8" top="16" width="384" height="201">
+					<column progid="DecalControls.TextColumn" name="colQuestName" fixedwidth="178"/>
+					<column progid="DecalControls.TextColumn" name="colQuestTimeLeft" fixedwidth="100"/>
+					<column progid="DecalControls.TextColumn" name="colQuestNotes" fixedwidth="36"/>
+					<column progid="DecalControls.TextColumn" name="colQuestEdit" fixedwidth="30"/>
+					<column progid="DecalControls.IconColumn" name="colQuestDelete"/>
+				</control>
+				<control progid="DecalControls.StaticText" name="Label18" left="168" top="2" width="216" height="16" justify="Right" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Ctrl+Click on 'Time Up' to clear the timer"/>
+			</control>
+
+		</page>
+		<page label="Notes">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.List" name="lstNotes" left="8" top="30" width="384" height="161">
+					<column progid="DecalControls.TextColumn" name="colNoteText" fixedwidth="260"/>
+					<column progid="DecalControls.TextColumn" name="colNoteCopy" fixedwidth="32"/>
+					<column progid="DecalControls.TextColumn" name="colNoteSay" fixedwidth="28"/>
+					<column progid="DecalControls.TextColumn" name="colNoteFellow" fixedwidth="24"/>
+					<column progid="DecalControls.IconColumn" name="colNoteDelete"/>
+				</control>
+				<control progid="DecalControls.Choice" name="choQuestNotes" left="56" top="8" width="272" height="19"/>
+				<control progid="DecalControls.StaticText" name="Label3" left="8" top="10" width="40" height="16" justify="Right" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Quest"/>
+				<control progid="DecalControls.Edit" name="edtNote" left="8" top="196" width="328" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.PushButton" name="btnAddNote" left="344" top="196" width="48" height="16" textcolor="16777215" text="Add"/>
+			</control>
+
+		</page>
+		<page label="Add/Edit Quest">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.StaticText" name="" left="8" top="8" width="64" height="16" text="Quest Name:"/>
+				<control progid="DecalControls.Edit" name="QuestNameEdit" left="70" top="7" width="210" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.StaticText" name="" left="7" top="28" width="56" height="15" text="Length:"/>
+				<control progid="DecalControls.Edit" name="DaysEdit" left="84" top="28" width="32" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.StaticText" name="" left="126" top="28" width="16" height="16" text="H"/>
+				<control progid="DecalControls.Edit" name="HoursEdit" left="140" top="28" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.StaticText" name="" left="175" top="28" width="16" height="16" text="M"/>
+				<control progid="DecalControls.Edit" name="MinutesEdit" left="189" top="28" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.StaticText" name="" left="7" top="63" width="43" height="19" text="Text:"/>
+				<control progid="DecalControls.Edit" name="TextEdit" left="72" top="63" width="320" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.StaticText" name="" left="7" top="84" width="48" height="16" text="Pickup:"/>
+				<control progid="DecalControls.Edit" name="ItemEdit" left="72" top="84" width="192" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.Checkbox" name="droppable" left="328" top="84" width="64" height="16" text="Droppable"/>
+				<control progid="DecalControls.StaticText" name="" left="7" top="105" width="65" height="16" text="Chest/Corpse:"/>
+				<control progid="DecalControls.Edit" name="ChestEdit" left="72" top="105" width="192" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.Checkbox" name="CompletedCheck" left="7" top="138" width="136" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Already Completed"/>
+				<control progid="DecalControls.StaticText" name="" left="7" top="154" width="42" height="16" justify="Right" text="Date:"/>
+				<control progid="DecalControls.StaticText" name="" left="192" top="154" width="32" height="16" justify="Right" text="Time:"/>
+				<control progid="DecalControls.PushButton" name="NowBtn" left="352" top="154" width="40" height="16" textcolor="16777215" text="Now"/>
+				<control progid="DecalControls.StaticText" name="" left="7" top="175" width="56" height="16" text="Time Left:"/>
+				<control progid="DecalControls.StaticText" name="" left="70" top="175" width="10" height="15" text="D"/>
+				<control progid="DecalControls.Edit" name="DaysLeft" left="84" top="175" width="32" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.StaticText" name="" left="126" top="175" width="12" height="15" text="H"/>
+				<control progid="DecalControls.Edit" name="HoursLeft" left="140" top="175" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.StaticText" name="" left="175" top="175" width="16" height="16" text="M"/>
+				<control progid="DecalControls.Edit" name="MinutesLeft" left="189" top="175" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.StaticText" name="" left="224" top="175" width="16" height="16" text="S"/>
+				<control progid="DecalControls.Edit" name="SecondsLeft" left="231" top="175" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="0"/>
+				<control progid="DecalControls.PushButton" name="CalcTimeLeft" left="273" top="175" width="68" height="16" textcolor="16777215" text="Calculate"/>
+				<control progid="DecalControls.PushButton" name="AddQuestBtn" left="124" top="196" width="96" height="20" textcolor="16777215" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Add Quest"/>
+				<control progid="DecalControls.Edit" name="edtTime" left="232" top="154" width="112" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.Edit" name="edtDate" left="56" top="154" width="128" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				<control progid="DecalControls.StaticText" name="Label1" left="70" top="28" width="16" height="16" text="D"/>
+				<control progid="DecalControls.StaticText" name="Label2" left="7" top="46" width="49" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Trigger:"/>
+				<control progid="DecalControls.StaticText" name="Label4" left="136" top="140" width="248" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Enter the Date/Time in your local format"/>
+				<control progid="DecalControls.PushButton" name="btnWildCardHelp" left="362" top="122" width="14" height="14" textcolor="16777215" text="?"/>
+				<control progid="DecalControls.StaticText" name="Label5" left="72" top="122" width="288" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Use wildcards [* ? #] and the pipe | to match multiple names"/>
+				<control progid="DecalControls.PushButton" name="btnClearAddEdit" left="228" top="196" width="48" height="20" textcolor="16777215" text="Clear"/>
+				<control progid="DecalControls.PushButton" name="btnPickupSelected" left="272" top="84" width="48" height="16" textcolor="16777215" text="Selected"/>
+				<control progid="DecalControls.PushButton" name="btnChestSelected" left="272" top="104" width="48" height="16" textcolor="16777215" text="Selected"/>
+				<control progid="DecalControls.StaticText" name="Label11" left="54" top="46" width="304" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="(use both 'Pickup' and 'Corpse' for an item from a specific corpse)"/>
+				<control progid="DecalControls.PushButton" name="btnSpecificCorpseHelp" left="362" top="46" width="14" height="14" textcolor="16777215" text="?"/>
+			</control>
+
+		</page>
+		<page label="Other Chars">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.Choice" name="choOChar" left="112" top="8" width="216" height="19"/>
+				<control progid="DecalControls.StaticText" name="Label16" left="8" top="10" width="104" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Select a character"/>
+				<control progid="DecalControls.List" name="lstOChar" left="8" top="30" width="384" height="186">
+					<column progid="DecalControls.TextColumn" name="colOQuestName" fixedwidth="184"/>
+					<column progid="DecalControls.TextColumn" name="colOQuestTimeLeft" fixedwidth="200"/>
+					<column progid="DecalControls.TextColumn" name="colOExprTime"/>
+				</control>
+			</control>
+
+		</page>
+		<page label="Internet">
+			<control progid="DecalControls.Notebook" name="nbkInternet">
+			<page label="Available Quests">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.List" name="lstDnldQuests" left="8" top="16" width="384" height="141">
+						<column progid="DecalControls.CheckColumn" name="colDnldChk"/>
+						<column progid="DecalControls.TextColumn" name="colDnldQuestName" fixedwidth="170"/>
+						<column progid="DecalControls.TextColumn" name="colDnldDuration" fixedwidth="72"/>
+						<column progid="DecalControls.TextColumn" name="colDnldDateAdded" fixedwidth="56"/>
+						<column progid="DecalControls.IconColumn" name="colDnldAdd"/>
+						<column progid="DecalControls.TextColumn" name="colDnldView" fixedwidth="30"/>
+						<column progid="DecalControls.TextColumn" name="colDnldNew"/>
+						<column progid="DecalControls.TextColumn" name="colDnldDays"/>
+						<column progid="DecalControls.TextColumn" name="colDnldHours"/>
+						<column progid="DecalControls.TextColumn" name="colDnldMinutes"/>
+						<column progid="DecalControls.TextColumn" name="colDnldText"/>
+						<column progid="DecalControls.TextColumn" name="colDnldItem"/>
+						<column progid="DecalControls.TextColumn" name="colDnldChest"/>
+						<column progid="DecalControls.TextColumn" name="colDnldDroppable"/>
+					</control>
+					<control progid="DecalControls.StaticText" name="Label9" left="30" top="2" width="88" height="16" text="Quest Name"/>
+					<control progid="DecalControls.StaticText" name="Label10" left="208" top="2" width="68" height="16" text="Duration"/>
+					<control progid="DecalControls.PushButton" name="btnDnldSelNew" left="104" top="184" width="64" height="16" textcolor="8454016" text="Select New"/>
+					<control progid="DecalControls.StaticText" name="Label14" left="280" top="2" width="56" height="16" text="Added"/>
+					<control progid="DecalControls.PushButton" name="btnDnldAddSel" left="8" top="184" width="80" height="16" textcolor="16752800" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Add Selected"/>
+					<control progid="DecalControls.PushButton" name="btnDnldSelAll" left="264" top="184" width="56" height="16" textcolor="16777215" text="Select All"/>
+					<control progid="DecalControls.PushButton" name="btnDnldSelNone" left="328" top="184" width="64" height="16" textcolor="16777215" text="Select None"/>
+					<control progid="DecalControls.StaticText" name="Label15" left="112" top="2" width="64" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Click to sort"/>
+					<control progid="DecalControls.PushButton" name="btnDnldSelUpdated" left="176" top="184" width="80" height="16" textcolor="3145696" text="Select Updated"/>
+					<control progid="DecalControls.StaticText" name="Label27" left="8" top="160" width="40" height="16" text="Search:"/>
+					<control progid="DecalControls.Edit" name="edtDnldFilter" left="48" top="160" width="88" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+					<control progid="DecalControls.PushButton" name="btnDnldShowUpdated" left="312" top="160" width="80" height="16" textcolor="3145696" text="Show Updated"/>
+					<control progid="DecalControls.PushButton" name="btnDnldShowSelected" left="224" top="160" width="80" height="16" textcolor="16752800" text="Show Selected"/>
+					<control progid="DecalControls.StaticText" name="txtDnldFilterMatches" left="192" top="160" width="24" height="16" textcolor="128" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="0"/>
+					<control progid="DecalControls.StaticText" name="Label28" left="144" top="160" width="48" height="16" text="Matches:"/>
+				</control>
+
+			</page>
+			<page label="Submit Quests">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.StaticText" name="Label26" left="30" top="2" width="88" height="16" text="Quest Name"/>
+					<control progid="DecalControls.List" name="lstSubmitQuests" left="8" top="16" width="384" height="162">
+						<column progid="DecalControls.CheckColumn" name="colSubCheck"/>
+						<column progid="DecalControls.TextColumn" name="colSubName" fixedwidth="224"/>
+						<column progid="DecalControls.TextColumn" name="colSubInfo" fixedwidth="200"/>
+					</control>
+					<control progid="DecalControls.PushButton" name="btnSubmitSelQuests" left="256" top="184" width="136" height="16" textcolor="16752800" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Submit Selected Quests"/>
+					<control progid="DecalControls.StaticText" name="Label6" left="16" top="184" width="64" height="16" text="Submitted by:"/>
+					<control progid="DecalControls.Edit" name="edtSubmittedBy" left="80" top="184" width="160" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+				</control>
+
+			</page>
+			<page label="Settings">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Checkbox" name="chkWebNewQuests" left="8" top="4" width="296" height="16" checked="true" text="Automatically check for and download new quests at login"/>
+					<control progid="DecalControls.Checkbox" name="chkWebUpload" left="8" top="44" width="296" height="16" text="Automatically upload quest timer information when saving"/>
+					<control progid="DecalControls.Edit" name="edtWebUploadURL" left="32" top="60" width="272" height="16" imageportalsrc="4410" textcolor="8454016" text="http://decal.acasylum.com/quest_timer.php"/>
+					<control progid="DecalControls.StaticText" name="Label7" left="8" top="60" width="24" height="16" text="URL"/>
+					<control progid="DecalControls.PushButton" name="btnWebCheckNow" left="312" top="4" width="80" height="16" textcolor="16777215" text="Check Now"/>
+					<control progid="DecalControls.PushButton" name="btnWebUploadNow" left="312" top="60" width="80" height="16" textcolor="16777215" text="Upload Now"/>
+					<control progid="DecalControls.Checkbox" name="chkWebDownload" left="8" top="116" width="288" height="16" text="Automatically download quest information at login"/>
+					<control progid="DecalControls.Edit" name="edtWebDownloadURL" left="32" top="132" width="272" height="16" imageportalsrc="4410" textcolor="8454016" text="http://decal.acasylum.com/quest_timer.php"/>
+					<control progid="DecalControls.StaticText" name="Label8" left="8" top="132" width="24" height="16" text="URL"/>
+					<control progid="DecalControls.PushButton" name="btnWebDownloadNow" left="312" top="132" width="80" height="16" textcolor="16777215" text="Download Now"/>
+					<control progid="DecalControls.Checkbox" name="chkWebOnlyUpdateNew" left="32" top="150" width="320" height="16" checked="true" text="Only download quests file if the server's file is newer than yours"/>
+					<control progid="DecalControls.Edit" name="edtWebUsername" left="72" top="188" width="112" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+					<control progid="DecalControls.StaticText" name="Label12" left="16" top="188" width="64" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Username"/>
+					<control progid="DecalControls.StaticText" name="Label13" left="192" top="188" width="64" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Password"/>
+					<control progid="DecalControls.Edit" name="edtWebPassword" left="248" top="188" width="112" height="16" imageportalsrc="4410" textcolor="16777215" text=""/>
+					<control progid="DecalControls.PushButton" name="btnWebUserHelp" left="372" top="188" width="14" height="14" textcolor="16777215" text="?"/>
+					<control progid="DecalControls.PushButton" name="btnWebDefaultURLs" left="280" top="28" width="112" height="16" textcolor="16777215" fontface="Times New Roman" fontsize="14" fontstyle=" italic" text="Restore Default URLs"/>
+					<control progid="DecalControls.Checkbox" name="chkWebOnlyUploadNew" left="32" top="78" width="304" height="16" checked="true" text="Only upload quests file if your file is newer than the server's"/>
+					<control progid="DecalControls.Checkbox" name="chkWebSaveBackups" left="32" top="166" width="72" height="16" checked="true" text="Save up to"/>
+					<control progid="DecalControls.Edit" name="edtWebBackupCt" left="100" top="166" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="10"/>
+					<control progid="DecalControls.StaticText" name="Label19" left="128" top="166" width="176" height="16" text="backups when downloading a quest file"/>
+					<control progid="DecalControls.StaticText" name="Label24" left="32" top="94" width="240" height="16" text="If server's data for other chars doesn't match yours:"/>
+					<control progid="DecalControls.Choice" name="choWebMismatch" left="274" top="92" width="88" height="19" selected="1">
+						<option text="Overwrite" data="NONE"/>
+						<option text="Alert me" data="COMPARE"/>
+						<option text="Merge" data="MERGE"/>
+					</control>
+					<control progid="DecalControls.PushButton" name="btnWebHelpMismatch" left="372" top="94" width="14" height="14" textcolor="16777215" text="?"/>
+					<control progid="DecalControls.Checkbox" name="chkWebTreestats" left="8" top="24" width="208" height="16" text="Upload timer information to Treestats"/>
+				</control>
+
+			</page>
+			</control>
+
+		</page>
+		<page label="Settings">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.Checkbox" name="chkWebNews" left="8" top="80" width="272" height="16" checked="true" text="Show Quest Timer news when logging on, if available"/>
+				<control progid="DecalControls.Checkbox" name="chkWebNewVersion" left="8" top="104" width="232" height="16" checked="true" text="Check for new versions when logging on"/>
+				<control progid="DecalControls.StaticText" name="Label17" left="300" top="56" width="48" height="16" text="days ago"/>
+				<control progid="DecalControls.Edit" name="edtAutoResetQuests" left="272" top="56" width="24" height="14" imageportalsrc="4410" textcolor="16777215" text="14"/>
+				<control progid="DecalControls.Checkbox" name="chkAutoResetQuests" left="8" top="56" width="264" height="16" text="Set quests to Not Completed if completed more than"/>
+				<control progid="DecalControls.Checkbox" name="chkCheckFileTime" left="8" top="32" width="344" height="16" checked="true" text="Watch for other clients modifying the Quest file (when dual logging)"/>
+				<control progid="DecalControls.Checkbox" name="chkShowTimeUp" left="8" top="8" width="344" height="16" checked="true" text="Show timer up messages when logging in or when a timer expires"/>
+				<control progid="DecalControls.FixedLayout" name="imgLogo" id="4567" left="296" top="88" width="80" height="120">
+				</control>
+
+				<control progid="DecalControls.StaticText" name="txtPluginNameVer" left="8" top="154" width="280" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Quest Timer"/>
+				<control progid="DecalControls.StaticText" name="Label20" left="8" top="170" width="280" height="16" justify="Center" text="Written by Digero"/>
+				<control progid="DecalControls.StaticText" name="Label21" left="8" top="182" width="280" height="16" justify="Center" text="Based on the original Quest Timer by Jer"/>
+				<control progid="DecalControls.StaticText" name="Label22" left="8" top="194" width="280" height="16" justify="Center" text="Visit http://decal.acasylum.com for updates and info"/>
+				<control progid="DecalControls.StaticText" name="Label23" left="51" top="194" width="120" height="16" textcolor="12582912" text="http://decal.acasylum.com"/>
+				<control progid="DecalControls.Checkbox" name="lnkInternetSettings" left="-25" top="128" width="257" height="16" textcolor="12582912" text="                                Click for Internet Settings"/>
+			</control>
+
+		</page>
+		</control>
+
+</view>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://decal.acasylum.com/logwiz" 
+           targetNamespace="http://decal.acasylum.com/logwiz" 
+           elementFormDefault="qualified">
+
+	<xs:element name="log">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="session" type="sessionType" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="date" type="xs:string"/>
+			<xs:attribute name="generator" type="xs:string"/>
+			<xs:attribute name="bkgd" type="xs:anyURI"/>
+			<xs:attribute name="fileVer" type="xs:integer"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="sessionType">
+		<xs:sequence>
+			<xs:element name="continueFrom" type="continueType" minOccurs="0"/>
+			<xs:element name="m" type="messageType" maxOccurs="unbounded"/>
+			<xs:element name="continueTo" type="continueType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="character" type="xs:string"/>
+		<xs:attribute name="server" type="xs:string"/>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="continueType">
+		<xs:attribute name="href" use="required"/>
+		<xs:attribute name="text" use="optional"/>
+	</xs:complexType>
+
+	<xs:complexType name="messageType" mixed="true">
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="a" type="anchorType"/>
+			<xs:element name="br" type="brHrType"/>
+			<xs:element name="hr" type="brHrType"/>
+		</xs:choice>
+		<xs:attribute name="c" type="xs:integer" use="required"/>
+		<xs:attribute name="t" type="xs:string" use="optional"/>
+	</xs:complexType>
+
+	<xs:complexType name="anchorType" mixed="true">
+		<xs:attribute name="href" type="xs:anyURI" use="required"/>
+		<xs:attribute name="style" type="xs:string" use="optional"/>
+		<xs:attribute name="class" type="xs:string" use="optional"/>
+	</xs:complexType>
+
+	<xs:complexType name="brHrType" />
+	
+</xs:schema>
