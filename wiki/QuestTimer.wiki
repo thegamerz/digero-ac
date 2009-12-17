@@ -1,0 +1,33 @@
+#summary Quest Timer
+#labels Featured
+
+= Description =
+
+Quest Timer keeps track of quests you've completed.  It will automatically start quest timers based on triggers you can download or define yourself.
+
+You can store your quests online and access them from any computer you play AC 
+on, or see your timers out-of-game. Quest Timer will also download new quests 
+as they are submitted to my site, to keep you up to date with the latest quest 
+timers!
+
+= Notes =
+ * Since all characters share the same quest file, when you delete a quest with one character, it will be deleted for all other characters, and any timer info and notes will be lost
+
+ * You can use the wildcards `* ? #` to match arbitrary letters/numbers, and the pipe | as an "OR" for matching multiple different names.
+   * `*` matches zero or more of any letter or number
+   * `?` matches exactly one letter or number
+   * `#` matches any single digit (0-9)
+   * `|` is used to separate different complete names and match any one of them (don’t put spaces between the name and the pipe)
+
+ For example, `*Gem of Enlightenment|*Gem of Forgetfulness` will match any of the gems in the Skill Change Quest; however, `*Gem of Enlightenment|Forgetfulness` will not.
+ 
+ * Quest Timer supports the ability to merge quest definitions from other people with yours. For example, you can download all of the quests in this site's quest database as a merge file. When you get a merge file, save it in the Quest Timer folder and name it `merge_quests.xml`. Next time you log in, Quest Timer will instruct you how to merge it.
+ If when merging quests, you have multiple copies of the same quest with different names, you can either delete the new ones or use the Converter program (outside AC) to move your timers under the new quest name and delete the old one.
+ 
+ * In order to improve performance, I recommend that you don't simply add all of the quests that are available on the Internet tab. There are over 300 quests available for download, but I recommend you look through the list and choose the ones you plan to use. If you ever decide you want a quest later, it'll still be there on the Internet tab. When you delete a quest that you had added from the Internet tab, it'll reappear there so you can add it back later if you choose.
+ 
+ * If you want a quest timer to only be triggered if you pick up an item from a specific corpse or chest, enter the item's name for 'Pickup' and the corpse or chest name (including 'Corpse of' for corpses) for 'Chest/Corpse.' The timer will only be started if you pick up that item while the corpse or chest is open. This is useful for a quest where the item you loot is droppable (instead of setting the "droppable" flag, which doesn't work very well).
+ 
+ * You may want to upload your quests to additional sites -- for instance, you use my site to store your file, but your clan's site to see the timer info. To do this, open the settings.xml file and follow the instructions in the comment under `<AdditionalUploadURLs>`
+ 
+ * To specify a different site to handle downloading or submitting new quests, change the `QuestDatabaseURL` field in settings.xml
