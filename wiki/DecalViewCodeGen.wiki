@@ -1,0 +1,4 @@
+#summary Decal View Code Generator helps create the skeleton code for Decal GUIs that use the .NET Adapter's "Codeless" views.
+
+== Download ==
+[http://digero-ac.googlecode.com/files/DecalViewCodeGen.exe Decal View Code Generator v1.0]
