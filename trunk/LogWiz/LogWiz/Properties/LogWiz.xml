@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<view icon="7098" title="LogWiz" width="224" height="269">
+		<control progid="DecalControls.Notebook" name="nbkMain">
+		<page label="Setup">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.PushButton" name="btnStartStop" left="8" top="8" width="208" height="24" textcolor="16777215" fontface="Arial" fontsize="14" fontstyle=" bold" text="Start Logging"/>
+				<control progid="DecalControls.Checkbox" name="chkLogPerChar" left="8" top="80" width="192" height="16" text="Separate log for each character"/>
+				<control progid="DecalControls.Checkbox" name="chkOutputXml" left="24" top="112" width="128" height="16" checked="true" text="XML (recommended)"/>
+				<control progid="DecalControls.Checkbox" name="chkTimestamp" left="8" top="128" width="128" height="16" checked="true" text="Timestamp log entries"/>
+				<control progid="DecalControls.Checkbox" name="chkLogByDefault" left="8" top="38" width="160" height="16" text="Enable logging by default"/>
+				<control progid="DecalControls.StaticText" name="txtLogForThisChar" left="96" top="56" width="136" height="32" text="Log for this character"/>
+				<control progid="DecalControls.Choice" name="choLogForThisChar" left="8" top="56" width="80" height="19" selected="2">
+					<option text="Always" data=""/>
+					<option text="Never" data=""/>
+					<option text="Default" data=""/>
+				</control>
+				<control progid="DecalControls.StaticText" name="Label1" left="8" top="160" width="96" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Status"/>
+				<control progid="DecalControls.StaticText" name="txtLogStatus" left="16" top="174" width="208" height="48" textcolor="128" text="Currently not logging"/>
+				<control progid="DecalControls.StaticText" name="Label2" left="8" top="96" width="96" height="16" text="Log output format:"/>
+				<control progid="DecalControls.Checkbox" name="chkOutputText" left="160" top="112" width="48" height="16" text="Text"/>
+				<control progid="DecalControls.Checkbox" name="chkStealthMode" left="8" top="144" width="80" height="16" text="Stealth Mode"/>
+				<control progid="DecalControls.PushButton" name="btnStealthModeHelp" left="90" top="145" width="12" height="12" textcolor="16777215" text="?"/>
+				<control progid="DecalControls.Checkbox" name="chkShowStatus" left="-32" top="176" width="256" height="32" text=""/>
+				<control progid="DecalControls.PushButton" name="btnShowStatus" left="48" top="161" width="12" height="12" textcolor="16777215" text="?"/>
+			</control>
+
+		</page>
+		<page label="Message Types">
+			<control progid="DecalControls.List" name="lstMessageTypes">
+				<column progid="DecalControls.CheckColumn" name="colChk"/>
+				<column progid="DecalControls.TextColumn" fixedwidth="16"/>
+				<column progid="DecalControls.TextColumn" name="colDesc" fixedwidth="224"/>
+				<column progid="DecalControls.TextColumn" name="colIndex"/>
+			</control>
+		</page>
+		</control>
+
+</view>

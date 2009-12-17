@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Media Control", "Media Control.vdproj", "{83C80958-63B8-4125-B196-255F29482E6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83C80958-63B8-4125-B196-255F29482E6B}.Debug|Default.ActiveCfg = Debug
+		{83C80958-63B8-4125-B196-255F29482E6B}.Debug|Default.Build.0 = Debug
+		{83C80958-63B8-4125-B196-255F29482E6B}.Release|Default.ActiveCfg = Release
+		{83C80958-63B8-4125-B196-255F29482E6B}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

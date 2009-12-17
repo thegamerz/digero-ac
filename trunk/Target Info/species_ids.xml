@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" standalone="no" ?>
+<species_ids>
+  <species name="Acid Elemental" id="60" />
+  <species name="Altered Human" id="65" />
+  <species name="Armoredillo" id="17" />
+  <species name="Aun Tumerok" id="57" />
+  <species name="Auroch" id="11" />
+  <species name="Banderling" id="2" />
+  <species name="Bleached Rabbit" id="72" />
+  <species name="Bunny" id="41" />
+  <species name="Burun" id="75" />
+  <species name="Carenzi" id="55" />
+  <species name="Chicken" id="69" />
+  <species name="Chittick" id="33" />
+  <species name="Cow" id="12" />
+  <species name="Crystal" id="47" />
+  <species name="Dark Sarcophagus" id="68" />
+  <species name="Deru" id="37" />
+  <species name="Device" id="66" />
+  <species name="Doll" id="53" />
+  <species name="Drudge" id="3" />
+  <species name="Eater" id="79" />
+  <species name="Elemental" id="62" />
+  <species name="Empyrean" id="51" />
+  <species name="Enchanted Arms" id="87" />
+  <species name="Fae" id="18" />
+  <species name="Fire Elemental" id="38" />
+  <species name="Fiun" id="78" />
+  <species name="Fragment" id="47" /> <!-- Supplemental (Crystal) -->
+  <species name="Frost Elemental" id="61" />
+  <species name="Ghost" id="77" />
+  <species name="Golem" id="13" />
+  <species name="Gotrok Lugian" id="70" />
+  <species name="Grievver" id="44" />
+  <species name="Grimacing Rabbit" id="74" />
+  <species name="Gromnie" id="15" />
+  <species name="Harbinger" id="67" />
+  <species name="Hea Tumerok" id="58" />
+  <species name="Hollow Minion" id="48" />
+  <species name="Hopeslayer" id="52" />
+  <species name="Human" id="31" />
+  <species name="Idol" id="50" />
+  <species name="Invalid" id="0" />
+  <species name="Knathtead" id="21" />
+  <species name="Lightning Elemental" id="42" />
+  <species name="Lugian" id="5" />
+  <species name="Margul" id="71" />
+  <species name="Marionette" id="54" />
+  <species name="Mattekar" id="23" />
+  <species name="Mite" id="7" />
+  <species name="Moar" id="86" />
+  <species name="Moarsman" id="34" />
+  <species name="Monouga" id="28" />
+  <species name="Mosswart" id="4" />
+  <species name="Mukkir" id="89" />
+  <species name="Mumiyah" id="24" />
+  <species name="Mu-miyah" id="24" /> <!-- Supplemental (Mumiyah) -->
+  <species name="Nasty Rabbit" id="73" />
+  <species name="Niffis" id="45" />
+  <species name="Olthoi Larvae" id="35" />
+  <species name="Olthoi" id="1" />
+  <species name="Penguin" id="80" />
+  <species name="Phyntos Wasp" id="9" />
+  <species name="Rabbit" id="25" />
+  <species name="Rat" id="10" />
+  <species name="Reedshark" id="16" />
+  <species name="Remoran" id="84" />
+  <species name="Rockslide" id="43" />
+  <species name="Ruschk" id="81" />
+  <species name="Scarecrow" id="49" />
+  <species name="Sclavus" id="26" />
+  <species name="Shadow" id="22" />
+  <species name="Shallows Shark" id="27" />
+  <species name="Shreth" id="32" />
+  <species name="Simulacrum" id="59" />
+  <species name="Siraluun" id="56" />
+  <species name="Skeleton" id="30" />
+  <species name="Sleech" id="88" />
+  <species name="Slithis" id="36" />
+  <species name="Snowman" id="39" />
+  <species name="Statue" id="63" />
+  <species name="Swarm" id="85" />
+  <species name="Target" id="76" />
+  <species name="Thrungus" id="82" />
+  <species name="Tumerok" id="6" />
+  <species name="Tusker" id="8" />
+  <species name="Undead" id="14" />
+  <species name="Unknown" id="40" />
+  <species name="Ursuin" id="46" />
+  <species name="Viamontian Knight" id="83" />
+  <species name="Virindi" id="19" />
+  <species name="Wall" id="64" />
+  <species name="Wasp" id="9" /> <!-- Supplemental (Phyntos Wasp) -->
+  <species name="Wisp" id="20" />
+  <species name="Zefir" id="29" />
+</species_ids>

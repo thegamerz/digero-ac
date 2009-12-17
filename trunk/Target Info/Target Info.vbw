@@ -1,0 +1,10 @@
+TargetInfo = 154, 203, 963, 798, 
+clsMonster = 132, 174, 941, 769, 
+Hub = 176, 232, 985, 827, Z
+HUD = 110, 145, 919, 740, 
+clsVulnDbase = 88, 116, 897, 711, 
+clsVulnInfo = 66, 87, 875, 682, 
+Data = 44, 58, 853, 653, 
+httpHandler = 22, 29, 831, 624, 
+clsDataParser = 0, 0, 809, 595, 
+debuffList = 0, 0, 0, 0, C

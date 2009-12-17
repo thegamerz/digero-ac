@@ -1,0 +1,230 @@
+<?xml version="1.0"?>
+<view icon="4997" title="Target Info" width="168" height="244">
+		<control progid="DecalControls.Notebook" name="nbkMain">
+		<page label="HUD">
+			<control progid="DecalControls.Notebook" name="nbkHUD">
+			<page label="Target">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Checkbox" name="chkShowTargetHUD" left="8" top="8" width="120" height="16" checked="true" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Show Target HUD"/>
+					<control progid="DecalControls.Checkbox" name="chkTargetRightAlign" left="16" top="24" width="80" height="16" text="Right-Align"/>
+					<control progid="DecalControls.Checkbox" name="chkTargetIconsOnly" left="16" top="40" width="72" height="16" text="Icons Only"/>
+					<control progid="DecalControls.Checkbox" name="chkTargetLifeOnly" left="16" top="56" width="112" height="16" text="Life Debuffs Only"/>
+					<control progid="DecalControls.Checkbox" name="chkTargetVulnsInline" left="16" top="88" width="144" height="16" text="Show Vulnerabilities Inline"/>
+					<control progid="DecalControls.FixedLayout" clipped="" left="16" top="108" width="152" height="72">
+						<control progid="DecalControls.Choice" name="backgroundColor" left="64" top="48" width="75" height="20" selected="0">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+						<control progid="DecalControls.StaticText" name="" left="0" top="48" width="62" height="20" text="Background"/>
+						<control progid="DecalControls.Choice" name="textColorLow" left="64" top="24" width="75" height="20" selected="3">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+						<control progid="DecalControls.StaticText" name="Label6" left="0" top="24" width="64" height="16" text="Low Debuffs"/>
+						<control progid="DecalControls.Choice" name="textColor" left="64" top="0" width="75" height="20" selected="1">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+						<control progid="DecalControls.StaticText" name="" left="0" top="0" width="62" height="20" text="Text Color"/>
+					</control>
+
+					<control progid="DecalControls.Checkbox" name="chkTargetAttackHeight" left="16" top="72" width="144" height="16" text="Show Best Attack Height"/>
+					<control progid="DecalControls.Checkbox" name="chkTargetTextOnly" left="96" top="40" width="72" height="16" text="Text Only"/>
+				</control>
+
+			</page>
+			<page label="Vulns">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Checkbox" name="chkVulnsRightAlign" left="16" top="24" width="80" height="16" text="Right-Align"/>
+					<control progid="DecalControls.Checkbox" name="chkShowVulnsHUD" left="8" top="8" width="112" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Show Vulns HUD"/>
+					<control progid="DecalControls.Checkbox" name="chkVulnsAttach" left="16" top="56" width="136" height="16" text="Attach to Target HUD"/>
+					<control progid="DecalControls.Checkbox" name="chkVulnsAttackHeight" left="16" top="72" width="144" height="16" text="Show Best Attack Height"/>
+					<control progid="DecalControls.Checkbox" name="chkVulnsColorCode" left="16" top="104" width="112" height="16" checked="true" text="Color-Code Vulns"/>
+					<control progid="DecalControls.FixedLayout" clipped="" left="16" top="128" width="152" height="48">
+						<control progid="DecalControls.StaticText" name="" left="0" top="24" width="62" height="20" text="Background"/>
+						<control progid="DecalControls.Choice" name="backgroundColorVulns" left="64" top="24" width="75" height="20" selected="0">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+						<control progid="DecalControls.StaticText" name="" left="0" top="0" width="62" height="20" text="Text Color"/>
+						<control progid="DecalControls.Choice" name="textColorVulns" left="64" top="0" width="75" height="20" selected="1">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+					</control>
+
+					<control progid="DecalControls.Checkbox" name="chkVulnsBestOnly" left="16" top="88" width="128" height="16" text="Only Show Best Vuln(s)"/>
+					<control progid="DecalControls.Checkbox" name="chkVulnsTextOnly" left="96" top="40" width="72" height="16" text="Text Only"/>
+					<control progid="DecalControls.Checkbox" name="chkVulnsIconsOnly" left="16" top="40" width="72" height="16" text="Icons Only"/>
+				</control>
+
+			</page>
+			<page label="Self">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Checkbox" name="chkSelfRightAlign" left="16" top="24" width="80" height="16" text="Right-Align"/>
+					<control progid="DecalControls.Checkbox" name="chkShowSelfHUD" left="8" top="8" width="112" height="16" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Show Self HUD"/>
+					<control progid="DecalControls.Checkbox" name="chkSelfDebuffOnly" left="16" top="72" width="128" height="16" checked="true" text="Only Show if Debuffed"/>
+					<control progid="DecalControls.Checkbox" name="chkSelfIconsOnly" left="16" top="40" width="72" height="16" text="Icons Only"/>
+					<control progid="DecalControls.Checkbox" name="chkSelfLifeOnly" left="16" top="56" width="120" height="16" text="Life Debuffs Only"/>
+					<control progid="DecalControls.FixedLayout" clipped="" left="16" top="128" width="152" height="48">
+						<control progid="DecalControls.StaticText" name="" left="0" top="24" width="62" height="20" text="Background"/>
+						<control progid="DecalControls.Choice" name="backgroundColorSelf" left="64" top="24" width="75" height="20" selected="0">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+						<control progid="DecalControls.StaticText" name="" left="0" top="0" width="62" height="20" text="Text Color"/>
+						<control progid="DecalControls.Choice" name="textColorSelf" left="64" top="0" width="75" height="20" selected="1">
+							<option text="Clear" data=""/>
+							<option text="White" data=""/>
+							<option text="Black" data=""/>
+							<option text="Red" data=""/>
+							<option text="Blue" data=""/>
+							<option text="Green" data=""/>
+							<option text="Magenta" data=""/>
+							<option text="Yellow" data=""/>
+						</control>
+					</control>
+
+					<control progid="DecalControls.Checkbox" name="chkSelfTextOnly" left="96" top="40" width="72" height="16" text="Text Only"/>
+				</control>
+
+			</page>
+			<page label="Timers">
+				<control progid="DecalControls.FixedLayout" clipped="">
+					<control progid="DecalControls.Choice" name="lifeSpellLevel" left="8" top="8" width="55" height="20" selected="6">
+						<option text="I" data="60"/>
+						<option text="II" data="90"/>
+						<option text="III" data="120"/>
+						<option text="IV" data="150"/>
+						<option text="V" data="180"/>
+						<option text="VI" data="210"/>
+						<option text="VII" data="240"/>
+					</control>
+					<control progid="DecalControls.StaticText" name="" left="72" top="8" width="70" height="20" text="Life Spells"/>
+					<control progid="DecalControls.Choice" name="creatureSpellLevel" left="8" top="40" width="55" height="20" selected="6">
+						<option text="I" data="60"/>
+						<option text="II" data="90"/>
+						<option text="III" data="120"/>
+						<option text="IV" data="150"/>
+						<option text="V" data="180"/>
+						<option text="VI" data="210"/>
+						<option text="VII" data="240"/>
+					</control>
+					<control progid="DecalControls.StaticText" name="" left="72" top="40" width="71" height="20" text="Creature Spells"/>
+					<control progid="DecalControls.Checkbox" name="dispTimerCheck" left="8" top="72" width="112" height="20" checked="true" text="Display timers"/>
+					<control progid="DecalControls.StaticText" name="Label7" left="8" top="104" width="152" height="16" text="Low Debuff Threshold:"/>
+					<control progid="DecalControls.Edit" name="edtLowBuffThresh" left="24" top="120" width="32" height="16" imageportalsrc="4410" textcolor="16777215" text="15"/>
+					<control progid="DecalControls.StaticText" name="Label13" left="60" top="120" width="72" height="16" text="seconds"/>
+				</control>
+
+			</page>
+			</control>
+
+		</page>
+		<page label="Cycle">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.StaticText" name="txtDHS" left="8" top="8" width="152" height="16" justify="Center" text="Use DHS to set up hotkeys"/>
+				<control progid="DecalControls.StaticText" name="" left="8" top="80" width="128" height="20" text="Cycle Vulned"/>
+				<control progid="DecalControls.Choice" name="selectStateChoice" left="8" top="96" width="152" height="20" selected="0">
+					<option text="Monsters Only" data=""/>
+					<option text="Players Only" data=""/>
+					<option text="Monsters and Players" data=""/>
+				</control>
+				<control progid="DecalControls.StaticText" name="" left="8" top="128" width="128" height="20" text="Cycle Non-vulned"/>
+				<control progid="DecalControls.Choice" name="selectNonStateChoice" left="8" top="144" width="152" height="20" selected="0">
+					<option text="Monsters Only" data=""/>
+					<option text="Players Only" data=""/>
+					<option text="Monsters and Players" data=""/>
+				</control>
+				<control progid="DecalControls.Edit" name="edtIndoorRange" left="88" top="56" width="32" height="16" imageportalsrc="4410" textcolor="16777215" text="25"/>
+				<control progid="DecalControls.PushButton" name="btnRangeHelp" left="128" top="40" width="16" height="16" textcolor="16777215" text="?"/>
+				<control progid="DecalControls.StaticText" name="Label2" left="8" top="32" width="72" height="16" justify="Right" text="Outdoor range"/>
+				<control progid="DecalControls.StaticText" name="Label12" left="8" top="56" width="72" height="16" justify="Right" text="Indoor range"/>
+				<control progid="DecalControls.Edit" name="edtOutdoorRange" left="88" top="32" width="32" height="16" imageportalsrc="4410" textcolor="16777215" text="75"/>
+			</control>
+
+		</page>
+		<page label="Vulns">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.PushButton" name="btnUpdateDatabase" left="8" top="80" width="152" height="24" textcolor="16777215" fontface="Times New Roman" fontsize="16" fontstyle=" bold" text="Update Database"/>
+				<control progid="DecalControls.FixedLayout" clipped="" left="16" top="0" width="136" height="48">
+					<control progid="DecalControls.StaticText" name="Label8" left="0" top="32" width="136" height="16" textcolor="8388608" justify="Center" text="http://ac.warcry.com"/>
+					<control progid="DecalControls.StaticText" name="Label5" left="0" top="20" width="136" height="16" justify="Center" fontface="Times New Roman" fontsize="14" fontstyle=" bold" text="Crossroads of Dereth"/>
+					<control progid="DecalControls.StaticText" name="Label4" left="0" top="8" width="136" height="16" justify="Center" text="Vuln database provided by"/>
+				</control>
+
+				<control progid="DecalControls.StaticText" name="Label10" left="8" top="112" width="152" height="56" fontface="Arial" fontsize="12" fontstyle="" text="The database is about 2MB large.  It may take a while to download and you will experience lag while downloading, especially with 56k."/>
+				<control progid="DecalControls.StaticText" name="Label11" left="8" top="168" width="152" height="24" fontface="Arial" fontsize="12" fontstyle="" text="If you find any incorrect, outdated, or missing vuln info, let CoD know!"/>
+				<control progid="DecalControls.StaticText" name="Label1" left="8" top="56" width="96" height="16" justify="Right" text="Total Creatures: "/>
+				<control progid="DecalControls.StaticText" name="txtVulnDbaseCount" left="104" top="56" width="48" height="16" textcolor="128" text="0"/>
+			</control>
+
+		</page>
+		<page label="Misc">
+			<control progid="DecalControls.FixedLayout" clipped="">
+				<control progid="DecalControls.StaticText" name="" left="8" top="180" width="152" height="16" justify="Center" fontface="Arial" fontsize="12" fontstyle="" text="Type /tinfo help for a command list"/>
+				<control progid="DecalControls.StaticText" name="txtVersionInfo" left="8" top="128" width="152" height="24" justify="Center" fontface="Times New Roman" fontsize="16" fontstyle=" bold" text="Target Info"/>
+				<control progid="DecalControls.StaticText" name="Label3" left="8" top="140" width="152" height="16" justify="Center" text="by Digero of Leafcull"/>
+				<control progid="DecalControls.PushButton" name="btnRelocate" left="8" top="104" width="152" height="16" textcolor="16777215" text="Reset HUD Positions"/>
+				<control progid="DecalControls.StaticText" name="Label14" left="8" top="164" width="152" height="16" textcolor="8388608" justify="Center" text="http://decal.acasylum.com"/>
+				<control progid="DecalControls.PushButton" name="btnClearSel" left="8" top="80" width="152" height="16" textcolor="14737632" text="Clear debuffs for selected"/>
+				<control progid="DecalControls.StaticText" name="Label9" left="8" top="152" width="152" height="16" justify="Center" text="original plugin by Jer"/>
+				<control progid="DecalControls.StaticText" name="Label15" left="8" top="8" width="64" height="16" text="Decoration"/>
+				<control progid="DecalControls.Choice" name="choDecorationType" left="64" top="8" width="96" height="19" selected="1">
+					<option text="None" data=""/>
+					<option text="Outline" data=""/>
+					<option text="Short Shadow" data=""/>
+					<option text="Long Shadow" data=""/>
+				</control>
+				<control progid="DecalControls.StaticText" name="Label16" left="8" top="32" width="72" height="16" text="Decoration Clr"/>
+				<control progid="DecalControls.Choice" name="choDecorationColor" left="80" top="32" width="80" height="19" selected="0">
+					<option text="Auto" data=""/>
+					<option text="Black" data=""/>
+					<option text="Drk Gray" data=""/>
+					<option text="Lt Gray" data=""/>
+					<option text="White" data=""/>
+				</control>
+				<control progid="DecalControls.Edit" name="edtFontSize" left="80" top="56" width="32" height="16" imageportalsrc="4410" textcolor="16777215" text="12"/>
+				<control progid="DecalControls.StaticText" name="Label17" left="8" top="56" width="80" height="16" text="HUD Font Size"/>
+			</control>
+
+		</page>
+		</control>
+
+</view>
