@@ -14,6 +14,33 @@ Updates for the map and route finder (download these after installing !GoArrow):
  * [http://digero-ac.googlecode.com/files/DerethMap.zip Updated map of Dereth] (replace `DerethMap.zip` in the !GoArrow folder)
  * [http://digero-ac.googlecode.com/files/MapRegions.xml Updated MapRegions.xml] (save it to the !GoArrow folder)
 
+== Screenshots ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_toolbar.gif
+
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_arrow.gif http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow_ani.gif
+
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_dereth-map.gif
+
+=== HUDs ===
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-0.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-1.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-2.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-3.gif
+
+=== Atlas ===
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-0.gif 
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-1.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-2-0.gif
+
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-3.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-4.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-5.gif
+
+=== Settings ===
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_2-0.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_2-1-0.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_2-2.gif
+
 == Notes ==
  * When entering coordinates, you can enter pretty much any text as long as it contains coordinates somewhere. For instance, you can paste the entire string: `Jim tells you, "Menhir Ring 4 :: 44.7N, 80.9W (relative to me: 1.2S, 0.3E)"` and !GoArrow will pick out the first set of coordinates it finds (44.7N, 80.9W).
 
