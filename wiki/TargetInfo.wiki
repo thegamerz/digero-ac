@@ -10,6 +10,12 @@ The plugin can also recommend which vulns to cast on your target, using the data
 == Download ==
 [http://digero-ac.googlecode.com/files/Target_Info_v3.1.1%20Alpha.msi Target Info v3.1.1 Alpha]
 
+== Screenshots ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_0.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_4.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_5.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_6.gif
+
 == Notes ==
  * To move the HUD, just click and drag it to where you'd like it to be.
  
