@@ -1,3 +1,4 @@
+== Digero's Decal Plugins ==
  * [Home]
 
 === Plugins ===
