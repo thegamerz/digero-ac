@@ -1,5 +1,4 @@
-== Digero's Decal Plugins ==
- * [Home]
+[Home]
 
 === Plugins ===
  * [GoArrow]
