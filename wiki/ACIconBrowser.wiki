@@ -4,3 +4,6 @@ AC Icon Browser lets you quickly browse and export the icons available in AC's c
 
 == Download ==
 [http://digero-ac.googlecode.com/files/ACIconBrowser.exe AC Icon Browser v1.0]
+
+== Screenshot ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/icon_browser_main.png
