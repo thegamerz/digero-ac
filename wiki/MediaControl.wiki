@@ -7,6 +7,9 @@ Media Control has DHS support, so you can assign hotkeys to the various function
 == Download ==
 [http://digero-ac.googlecode.com/files/Media_Control_v1.1.0.0.msi Media Control v1.1.0.0]
 
+== Screenshot ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/media_control.gif
+
 == Notes ==
  * If you have Decal Hotkey System installed, you can set up hotkeys for the various functions of Media Control.
 
