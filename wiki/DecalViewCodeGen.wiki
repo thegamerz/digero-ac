@@ -4,3 +4,6 @@ Decal View Code Generator helps create the skeleton code for Decal GUIs that use
 
 == Download ==
 [http://digero-ac.googlecode.com/files/DecalViewCodeGen.exe Decal View Code Generator v1.0]
+
+== Screenshot ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/viewgen_main.png
