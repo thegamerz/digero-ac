@@ -15,19 +15,25 @@ Updates for the map and route finder (download these after installing !GoArrow):
  * [http://digero-ac.googlecode.com/files/MapRegions.xml Updated MapRegions.xml] (save it to the !GoArrow folder)
 
 == Screenshots ==
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_toolbar.gif
+=== !GoArrow Toolbar ===
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_toolbar.gif
 
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_arrow.gif http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow_ani.gif
+=== Arrow ===
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_arrow.gif
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow_ani.gif
 
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_dereth-map.gif
+=== World Map ===
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_dereth-map.gif
 
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-0.gif
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-1.gif
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-2.gif
+=== HUD Settings ===
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-0.gif
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-1.gif
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_0-2.gif
 
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-0.gif 
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-1.gif
-http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-2-0.gif
+=== Atlas and Route Finding ===
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-0.gif 
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-1.gif
+  http://digero-ac.googlecode.com/svn/wiki/screenshots/goarrow/goarrow_1-2-0.gif
 
 == Notes ==
  * When entering coordinates, you can enter pretty much any text as long as it contains coordinates somewhere. For instance, you can paste the entire string: `Jim tells you, "Menhir Ring 4 :: 44.7N, 80.9W (relative to me: 1.2S, 0.3E)"` and !GoArrow will pick out the first set of coordinates it finds (44.7N, 80.9W).
