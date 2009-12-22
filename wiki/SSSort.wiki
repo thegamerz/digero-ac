@@ -5,6 +5,9 @@ SSSort sorts the scrolls, salvage, or mana stones in your main pack or side pack
 == Download ==
 [http://digero-ac.googlecode.com/files/SSSort_v2.2.0.0.msi SSSort v2.2.0.0]
 
+== Screenshot ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/sssort1.gif
+
 == Notes ==
     * You need to have a pack _selected_ (not just open) to sort the selected pack.
 
