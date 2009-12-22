@@ -1,5 +1,5 @@
 === Digero's Decal Plugins ===
-  * *Plugins*
+  * Plugins
     * [GoArrow]
     * [LogWiz]
     * [MediaControl Media Control]
@@ -8,8 +8,8 @@
     * [SSSort]
     * [SpellbarSaver Spellbar Saver]
     * [TargetInfo Target Info]
-  * *Utilities*
+  * Utilities
     * [ACIconBrowser AC Icon Browser]
     * [DecalViewCodeGen Decal View Code Generator]
-  * *Contact*
+  * Contact
     * [http://mailhide.recaptcha.net/d?k=01xjITiWNXliP6mjzq1HgESQ==&c=HF-m2zZPX30z6MUALvlKRpHpMWpHDjkiE_j6Q1VNWSE= email]
