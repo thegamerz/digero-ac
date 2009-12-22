@@ -5,6 +5,10 @@
 == Download ==
 [http://digero-ac.googlecode.com/files/LogWiz_v2.0.0.0.msi LogWiz v2.0.0.0]
 
+== Screenshots ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/logwiz1.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/logwiz2.gif
+
 == Notes ==
     *  Logs are stored in the `Logs` directory under the plugin's installation folder. Remember where you install it! Default is `C:\Program Files\Decal Plugins\LogWiz`
        
