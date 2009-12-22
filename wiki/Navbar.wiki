@@ -1,4 +1,3 @@
-=== Digero's Decal Plugins ===
   * Plugins
     * [GoArrow]
     * [LogWiz]
