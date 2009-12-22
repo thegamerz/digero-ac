@@ -11,6 +11,9 @@ The plugin can also recommend which vulns to cast on your target, using the data
 [http://digero-ac.googlecode.com/files/Target_Info_v3.1.1%20Alpha.msi Target Info v3.1.1 Alpha]
 
 == Screenshots ==
+http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_HUD_Attached.gif
+http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_HUD_Icons_Only.gif
+
 http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_0.gif
 http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_4.gif
 http://digero-ac.googlecode.com/svn/wiki/screenshots/target_info_5.gif
