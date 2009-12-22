@@ -1,3 +1,5 @@
+[Home]
+
 === Plugins ===
  * [GoArrow]
  * [LogWiz]
