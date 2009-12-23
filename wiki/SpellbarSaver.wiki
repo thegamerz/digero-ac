@@ -1,5 +1,3 @@
-#summary Spellbar Saver is a multi-purpose utility for managing your spellbars.
-
 Spellbar Saver is a multi-purpose utility for managing your spellbars. Uses include:
     * Have multiple spellbar setups for different occasions (such as PK and NPK) -- essentially extend AC's 7 bar limit.
     * Upgrade your spellbars when you graduate to a new level of spells.
