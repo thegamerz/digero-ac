@@ -1,5 +1,3 @@
-#summary Media Control allows you to control Windows Media Player (and others) from within AC.
-
 Media Control allows you to control Windows Media Player (and others) from within AC. It provides functionality similar to multimedia keyboards, with buttons for Play/Pause, Stop, Fwd, Bkwd, and Volume. It doesn't actually interface with the player, so it can't tell you what song is playing or let you edit a playlist.
 
 Media Control has DHS support, so you can assign hotkeys to the various functions.
