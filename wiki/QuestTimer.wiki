@@ -1,6 +1,4 @@
-#summary Quest Timer keeps track of quests you've completed, and when you'll be able to complete them again.
 #labels Featured
-
 Quest Timer keeps track of quests you've completed, and when you'll be able to complete them again. It will automatically start quest timers based on triggers you can download or define yourself. You can store your quests online and access them from any computer you play AC 
 on, or see your timers out-of-game. Quest Timer will also download new quests 
 as they are submitted to my site, to keep you up to date with the latest quest 
