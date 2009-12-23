@@ -1,5 +1,3 @@
-#summary Developer information for Quest Timer.
-
 == Tell me about your site! ==
 If you have a site that communicates with Quest Timer, [http://vnboards.ign.com/pm_send.asp?usr=729875 let me know]! I'd love to see it =) 
 
