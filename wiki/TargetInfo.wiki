@@ -1,6 +1,4 @@
-#summary Target Info tells you what monsters have had debuffs cast on them, regardless of who cast them.
 #labels Featured
-
 Target Info tells you what monsters have had debuffs cast on them, regardless of who cast them. You just have to be around when the vuln is cast. This is very useful in a fellow, where you have a few mages casting vulns at the same time. Makes avoiding those annoying recasts easier!!
 
 It displays the vulns in an onscreen HUD for the creature or player you currently have selected. You can cycle through vulned or nonvulned monsters (and/or players) using hotkeys you define with DHS.
