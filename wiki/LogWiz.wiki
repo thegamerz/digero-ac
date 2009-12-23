@@ -1,5 +1,3 @@
-#summary LogWiz creates logs of chat text in either plain text or full color.
-
 !LogWiz creates logs of chat text in either plain text or full color. You can choose which types messages it logs, add timestamps to every line of the log, make separate logs for each character, choose which characters it will log for and more. It will make a new log file each day so you don't have huge logs to sort through.
 
 == Download ==
