@@ -53,3 +53,6 @@ Updates for the map and route finder (download these after installing !GoArrow):
  There are two exceptions to this:
    # If the Dereth Map is centered on the player, zooming in will keep it centered on the player.
    # If you hold down Shift or Control, the map will stay centered on the point where it's currently centered.
+
+== Source Code ==
+The source code for !GoArrow is available from the [http://goarrow.googlecode.com GoArrow project on GoogleCode].
