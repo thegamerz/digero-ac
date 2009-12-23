@@ -1,6 +1,4 @@
-#summary GoArrow displays an arrow on your screen that points towards coordinates that you specify.
 #labels Featured
-
 !GoArrow displays an arrow on your screen that points towards coordinates that you specify. This is very handy if you have to run to coordinates with obstacles in the way (like mountains), or if you're just directionally-challenged, like me =D
 
 !GoArrow has the ability to find a route between any two locations in Dereth, as well as look up locations' details from either the [http://ac.warcry.com/atlas/search.php Crossroads of Dereth atlas] or the [http://www.acspedia.com/ ACSpedia atlas].
